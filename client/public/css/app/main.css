@@ -1,15 +1,16 @@
 /* var text-decoration */
 @font-face {
-  font-family: myfont;
-  src: url(/public/fonts/ufonts.com_tw-cen-mt.ttf);
+  font-family: sndkFont;
+  src: url(/public/fonts/fontawesome-webfont.ttf);
 }
 /*--
     Common Css
 --*/
 body {
-  font-family: myfont;
-  font-size: 14px;
+  font-family: sndkFont;
+  font-size: 12px;
   font-weight: 400;
+  background-color: #231318;
 }
 h1,
 h2,
@@ -18,25 +19,26 @@ h4,
 h5,
 h6 {
   margin: 0px;
-  font-family: myfont;
+  font-family: sndkFont;
+  color: white;
 }
 h1 {
-  font-size: 36px;
+  font-size: 34px;
 }
 h2 {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 500;
 }
 h3 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
 }
 p {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   line-height: 20px;
   margin: 0px;
-  font-family: myfont;
+  font-family: sndkFont;
 }
 ul {
   padding: 0;
@@ -48,7 +50,7 @@ a:active,
 a:focus,
 a:active {
   text-decoration: none !important;
-  font-size: 15px;
+  font-size: 13px;
 }
 /*============== Mixins style start ================*/
 .overlay-effect {
@@ -74,7 +76,7 @@ a:active {
   position: relative;
 }
 .heading span {
-  font-size: 45px;
+  font-size: 43px;
   color: #1589e2;
   font-weight: 600;
 }
@@ -165,7 +167,7 @@ nav .block .navbar-default .navbar-nav > li > a {
   color: #2E2E2E;
   padding: 10px 0px;
   margin: 0px 15px;
-  font-size: 15px;
+  font-size: 13px;
   text-transform: uppercase;
 }
 nav .block .navbar-default .navbar-nav > li > a:before {
@@ -257,22 +259,22 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   position: absolute;
   right: 0;
   top: -40px;
-  font-size: 40px;
+  font-size: 38px;
   color: #AA9D84;
 }
 /*--
     about-us Start
 --*/
 #about-us {
-  padding: 100px 0px;
-  background: #F6F6F6;
+  /*padding: 100px 0px;*/
+  /*background: #F6F6F6;*/
 }
 #about-us .block {
   text-align: center;
 }
 #about-us .block p {
   color: #959595;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 26px;
   padding: 40px 0px;
 }
@@ -282,7 +284,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 #blog {
   padding-top: 75px;
   padding-bottom: 100px;
-  background: url("/public/images/school/DSC_2589.jpg");
+  background: url("/public/images/school/drumbg.JPG");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -362,7 +364,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 }
 #blog .block ul li .content-right {
   padding: 40px 35px 23px;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 26px;
   float: right;
   width: 50%;
@@ -411,7 +413,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   border: 1px solid transparent ;
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   -webkit-transition: .3s all;
   -o-transition: .3s all;
   transition: .3s all;
@@ -429,7 +431,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 }
 #price .block > p {
   color: #9D9D9D;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 26px;
   padding: 40px 133px 0;
   text-align: center;
@@ -475,7 +477,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   background: none;
   color: #1589e2;
   border: 1px solid #1589e2;
-  font-size: 15px;
+  font-size: 13px;
   text-transform: uppercase;
   font-weight: 600;
   -webkit-transition: .3s all;
@@ -492,7 +494,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 #subscribe {
   padding: 100px 0px;
   text-align: center;
-  background: url("/public/images/school/DSC_2577.JPG");
+  background: url("/public/images/school/prayerbg.JPG");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -516,7 +518,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 #subscribe .block p {
   padding: 25px 0px;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
 }
 #subscribe .block form .form-control {
   width: 450px;
@@ -525,7 +527,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   border: none;
   height: 65px;
   border-radius: 0px;
-  font-size: 15px;
+  font-size: 13px;
 }
 #subscribe .block form .input-group-addon {
   padding: 0px;
@@ -540,7 +542,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   background: #7EC3BB;
   color: #fff;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 2px;
   text-transform: uppercase;
   -webkit-transition: .3s all;
@@ -636,23 +638,23 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 #footer .block .gallary ul li h4 i {
   color: #555;
   margin-right: 30px;
-  font-size: 20px;
+  font-size: 18px;
 }
 #footer .block .blog ul li h4 a,
 #footer .block .info ul li h4 a,
 #footer .block .gallary ul li h4 a {
   color: #1589e2;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
 }
 #footer .block .blog ul li p,
 #footer .block .info ul li p,
 #footer .block .gallary ul li p {
   color: #474747;
-  font-size: 14px;
+  font-size: 12px;
 }
 #footer .block .social-media-link h3 {
-  font-size: 20px;
+  font-size: 18px;
   padding-bottom: 15px;
   padding-top: 30px;
 }
@@ -668,7 +670,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   width: 40px;
   height: 40px;
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
   padding-top: 8px;
   border-radius: 100%;
   background: #B0B0B0;
@@ -692,7 +694,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   text-align: center;
   padding-top: 12px;
   color: #454545;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 600;
   letter-spacing: 2px;
 }
